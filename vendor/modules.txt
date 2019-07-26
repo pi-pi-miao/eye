@@ -1,0 +1,11 @@
+# github.com/BurntSushi/toml v0.3.1
+github.com/BurntSushi/toml
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/sirupsen/logrus v1.4.0
+github.com/sirupsen/logrus
+# golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2 => github.com/golang/crypto v0.0.0-20180820150726-614d502a4dac
+golang.org/x/crypto/ssh/terminal
+# golang.org/x/sys v0.0.0-20190312061237-fead79001313 => github.com/golang/sys v0.0.0-20190609082536-301114b31cce
+golang.org/x/sys/unix
+golang.org/x/sys/windows

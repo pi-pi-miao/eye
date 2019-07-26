@@ -1,0 +1,22 @@
+
+[Config]
+Ip = "127.0.0.1"
+Port = 8080
+PprofAddr = "127.0.0.1:10000"
+ReadTimeout = 10
+WriteTimeout = 10
+IdleTimeout  = 10
+Lenth        = 10
+Env          = "test"   #test 测试   pro生产环境
+
+
+
+[EtcdConfig]
+EtcdAddr = ["127.0.0.1:2379",]
+DialTimeout = 5
+
+[Log]
+LogLevel = "debug"
+LogFile = "./framework.log"
+IsDebug = 1
+DingUrl = "http://"
