@@ -19,8 +19,6 @@ mysql 未来更新
 
 ##接口
 
-//这个还未放在internal/initialize/init.go包中，用了放
-
 ```go
 // pkg/etcd/etcd.go
 func NewEtcdClient(addr []string, timeout int64)*EtcdClien
@@ -74,4 +72,3 @@ IsDebug = 1
 DingUrl = "http://"                # 钉钉报警链接地址
 ```
 
-流程
