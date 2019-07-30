@@ -1,12 +1,12 @@
-##Eye
+## Eye
 
 ```
 eye是一个基于httprouter为路由，底层为官方标准库net/http为网络框架的企业级标准web框架，微服务框架。可直接开箱即用
 ```
 
-##集成：
+## 集成：
 
-```shell
+``` shell
 etcdv3
 zap
 json
@@ -17,9 +17,9 @@ redis 未来更新
 mysql 未来更新
 ```
 
-##接口
+## 接口
 
-```go
+``` go
 // pkg/etcd/etcd.go
 func NewEtcdClient(addr []string, timeout int64)*EtcdClien
 初始化etcd接口，
@@ -46,9 +46,9 @@ func Unmarshal(data []byte, v interface{}) error
 json的unmarshal接口
 ```
 
-##配置文件说明
+## 配置文件说明
 
-```toml
+``` toml
 [Config]
 Ip = "127.0.0.1"                 # 当前的运行的ip
 Port = 8080                      # 当前的运行的端口
